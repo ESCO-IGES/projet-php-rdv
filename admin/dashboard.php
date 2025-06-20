@@ -10,8 +10,8 @@ $rendezvous = $conn->query("SELECT * FROM rendezvous ORDER BY date_heure DESC");
 ?>
 <!DOCTYPE html>
 <html>
-<head><title>Dashboard</title></head>
-<body>
+<head><title>Liste de mes rendez-vous</title></head>
+<body style="background-color:gray ;">> 
 <h1>Liste des rendez-vous</h1>
 <table border="1">
     <tr><th>Nom</th><th>Email</th><th>Téléphone</th><th>Objet</th><th>Date/Heure</th><th>Action</th></tr>
